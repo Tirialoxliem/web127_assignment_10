@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page 4</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" />
+    <script src="../scripts/scripts.js" async></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_2.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_3.html">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page_4.html">Delivery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <img id="img2" src="../images/delivery.jpg" alt="" />
+    <br />
+
+    <h1>Delivery Address</h1>
+    <div id="container">
+      <form>
+        <div class="mb-3">
+          <label for="Name" class="form-label fw-bold">Name*</label>
+          <input
+            type="name"
+            class="form-control"
+            id="Name"
+            aria-describedby="nameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="address" class="form-label fw-bold"
+            >Street address*</label
+          >
+          <input
+            type="name"
+            class="form-control"
+            id="address"
+            aria-describedby="nameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="apartment" class="form-label fw-bold">Apartment</label>
+          <input
+            type="name"
+            class="form-control"
+            id="apartment"
+            aria-describedby="nameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="city" class="form-label fw-bold">City*</label>
+          <input
+            type="name"
+            class="form-control"
+            id="city"
+            aria-describedby="nameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="state" class="form-label fw-bold">State*</label>
+          <input
+            type="name"
+            class="form-control"
+            id="state"
+            aria-describedby="nameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="zip" class="form-label fw-bold">Zipcode*</label>
+          <input
+            type="name"
+            class="form-control"
+            id="zip"
+            aria-describedby="nameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label fw-bold">Phone number*</label>
+          <input
+            type="name"
+            class="form-control"
+            id="phone"
+            aria-describedby="nameHelp"
+          />
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#submitaddress"
+        >
+          Submit
+        </button>
+
+        <div id="submitaddress" class="modal fade" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">RECIEVED! See You Soon!</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>Remember, 30 minutes or it is free!</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer><p>Richard Lewis • copyright © 2023</p></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
